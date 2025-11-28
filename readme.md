@@ -11,15 +11,15 @@ The goal of this thesis was to develop a method to consitently reconstruct the s
 - **`networks\`**: contains the implementation of the networks
 - **`results\`**: contains the evaluation of the modelson the metrics
 - **`test_sets\`**: contains the test sets on which the models are evaluated
+- **`Stats.ipynb`**: presents statistics of the dataset
+- **`Visualization.ipynb`**: presents visualization of tracks and skeletons computed by a trained model
 - **`dataset.py`**: loads and preprocesses data, the artificial masking is part of the preprocessing step
 - **`glob3DBodyParts.csv`**: the simulated mouse's tracks, file contain rigid and deformable coordinates over time
 - **`main.py`**: runs the training of a network and its evaluation on the test sets
 - **`metrics.py`**: runs the evaluation of a network on the test sets for one type of masking
-- **`Stats.ipynb`**: presents statistics of the dataset
 - **`tools.py`**: various helpful functions
 - **`tracks_csv.py`**: saves the tracks computed by a trained model in a csv file in the same format as **`glob3DBodyParts.csv`**
 - **`training.py`**: runs the training of a network for one type of masking
-- **`Visualization.ipynb`**: presents visualization of tracks and skeletons computed by a trained model
 
 
 ## Installation and execution
