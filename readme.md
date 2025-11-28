@@ -27,7 +27,7 @@ The goal of this thesis was to develop a method to consitently reconstruct the s
 1. Clone this repository:
    
    ```bash
-   git clone https://github.com/mhobbah/mouse_skeleton.git
+   git clone https://github.com/mhobbah/MouseSkeleton.git
    ```
 2. Install depedencies:
    
